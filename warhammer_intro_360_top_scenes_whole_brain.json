@@ -1,0 +1,32 @@
+[
+  {
+    "scene_id":1,
+    "start_second":0,
+    "peak_second":14,
+    "end_second":20,
+    "duration_sec":21,
+    "peak_intensity":0.1811,
+    "sustained_mean":0.142,
+    "buildup_slope":0.0061,
+    "total_impact_auc":2.9823,
+    "top_active_parcels":"L_A5 (+0.331), L_STSdp (+0.313), R_A5 (+0.293), L_A4 (+0.231), R_PBelt (+0.218)",
+    "peak_sentence":"Yet, He is a rotting carcass, the Carrion Lord of the Imperium held in life by marvels from the Dark Age of Technology and the thousand souls sacrificed each day so that His may continue to burn.",
+    "full_scene_text":"For more than a hundred centuries the Emperor has sat immobile on the Golden Throne of Earth. He is the Master of Mankind. By the might of His inexhaustible armies a million worlds stand against the dark. Yet, He is a rotting carcass, the Carrion Lord of the Imperium held in life by marvels from the Dark Age of Technology and the thousand souls sacrificed each day so that His may continue to burn.",
+    "composite_score":0.1596
+  },
+  {
+    "scene_id":2,
+    "start_second":35,
+    "peak_second":41,
+    "end_second":55,
+    "duration_sec":21,
+    "peak_intensity":0.1744,
+    "sustained_mean":0.1447,
+    "buildup_slope":0.0029,
+    "total_impact_auc":3.0381,
+    "top_active_parcels":"L_STSdp (+0.519), L_STSvp (+0.469), R_STSdp (+0.448), L_A5 (+0.443), R_A5 (+0.422)",
+    "peak_sentence":"This is a dark and terrible era where you will find little comfort or hope.",
+    "full_scene_text":"It is to have cries of anguish and sorrow drowned by the thirsting laughter of dark gods. This is a dark and terrible era where you will find little comfort or hope. Forget the power of technology and science. Forget the promise of progress and advancement. Forget any notion of common humanity or compassion. There is no peace amongst the stars, for in the grim darkness of the far future, there is only war.",
+    "composite_score":0.1581
+  }
+]

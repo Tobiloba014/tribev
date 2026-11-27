@@ -9,6 +9,7 @@
 import logging
 import typing as tp
 from pathlib import Path
+import pathlib
 
 import numpy as np
 import pandas as pd
@@ -199,9 +200,11 @@ class TribeModel(TribeExperiment):
             from huggingface_hub import hf_hub_download
 
             repo_id = str(checkpoint_dir)
+            repo_id = str(repo_id).replace("\\", "/")
             config_path = hf_hub_download(repo_id, "config.yaml")
             ckpt_path = hf_hub_download(repo_id, checkpoint_name)
         with open(config_path, "r") as f:
+            pathlib.PosixPath = pathlib.WindowsPath
             config = ConfDict(yaml.load(f, Loader=yaml.UnsafeLoader))
         for modality in ["text", "audio", "video"]:
             config[f"data.{modality}_feature.infra.folder"] = cache_folder
